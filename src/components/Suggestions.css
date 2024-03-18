@@ -1,0 +1,50 @@
+.suggest{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.post-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-info h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .profile-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+
+  .suggestHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+  }
+
+  .suggestHead h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .suggestHead p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+

@@ -1,0 +1,26 @@
+.carousel-container {
+    position: relative;
+  }
+  
+  .arrow{
+    position: absolute;
+    top: 16px;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 1;
+    border-radius: 50%; /* Set border-radius to 50% for a circular shape */
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .arrow-left {
+    left: 0;
+  }
+  
+  .arrow-right {
+    right: 4px;
+  }
+  

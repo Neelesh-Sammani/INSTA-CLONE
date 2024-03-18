@@ -1,0 +1,76 @@
+.post-card {
+    width: 450px;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-info h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .profile-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .post-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-footer {
+    padding: 10px;
+  }
+  
+  .post-footer .likes, .post-footer .caption {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .post-footer .caption {
+    color: #333;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 10px; /* Adjust spacing between icons as needed */
+    color: rgb(0, 0, 0); /* Adjust icon color as needed */
+    font-weight: bold;
+  }
+
+  .post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mirror-icon {
+    transform: scaleX(-1); /* Flip horizontally */
+  }
+  
+  .icons{
+    display: flex;
+    justify-content: space-between;
+  }
