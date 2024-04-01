@@ -1,0 +1,71 @@
+.signupContainer {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 16px;
+  }
+
+  .belowContainer{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  .signupHeader {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .signupForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signupInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signupButton {
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signupButton:hover {
+    background-color: #357ae8;
+  }
+  
+  .signupTerms {
+    font-size: 12px;
+  }
+
+
+  .link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #0095f6; /* Blue color similar to Instagram */
+  }
+  
+  .link:focus {
+    color: #0067b8; /* Darker blue color for focus state */
+  }
+  
+  .link:active {
+    color: #0095f6; /* Return to the original blue color when active */
+  }
+  
+  .link:visited {
+    color: #0095f6; /* Blue color for visited links */
+  }
+  
+  
